@@ -1,9 +1,17 @@
 programa {
   funcao inicio() {
   
-  //Função de SUBTRACAO ABAIXO
-  real n1 , n2 ,sub
+   //Função de SOMA ABAIXO
+    real n1, n2, soma
+    escreva("Me fale o valor do primeiro númwro: \n")
+    leia(n1)
+    escreva("Me informe o valor do segundo número: \n")
+    leia(n2)
+    soma = n1 + n2
+    escreva("Sua soma é igual a: ", soma)
 
+   //Função de SUBTRACAO ABAIXO
+   real n1 , n2 ,sub
    escreva("escreva o primeiro número: \n")
    leia(n1)
    escreva("escerva o segundo número: \n")
@@ -12,7 +20,7 @@ programa {
    sub = n1 - n2
    escreva("subtração é igual a: ", sub)
    
-   //Função de SOMA ABAIXO
+   //Função de MULTIPLICAÇÃO ABAIXO
     real num1 , num2 , res
     escreva("escreva um numero ")
     leia(num1)
